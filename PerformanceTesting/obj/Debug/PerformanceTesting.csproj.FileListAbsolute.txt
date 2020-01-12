@@ -24,6 +24,5 @@ E:\Augen\PerformanceTesting\PerformanceTesting\bin\Debug\Scripts\INSERT_INTO_TAB
 E:\Augen\PerformanceTesting\PerformanceTesting\bin\Debug\Scripts\INSERT_INTO_TABLE_RunTest.sql
 E:\Augen\PerformanceTesting\PerformanceTesting\bin\Debug\Scripts\INSERT_INTO_TABLE_RunLog_ROLLBACK.sql
 E:\Augen\PerformanceTesting\PerformanceTesting\bin\Debug\Scripts\INSERT_INTO_TABLE_RunLog.sql
-E:\Augen\PerformanceTesting\PerformanceTesting\obj\Debug\PerformanceTesting.csprojAssemblyReference.cache
 E:\Augen\PerformanceTesting\PerformanceTesting\obj\Debug\PerformanceTesting.Migrations.INSERT_INTO_TABLE_RunTest.resources
 E:\Augen\PerformanceTesting\PerformanceTesting\obj\Debug\PerformanceTesting.Migrations.INSERT_INTO_TABLE_RunLog.resources
