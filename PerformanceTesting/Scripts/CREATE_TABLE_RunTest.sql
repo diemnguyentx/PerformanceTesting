@@ -1,0 +1,9 @@
+﻿IF (OBJECT_ID('RunTest') IS NOT NULL)
+BEGIN
+   DROP TABLE [dbo].RunTest
+END
+CREATE TABLE RunTest (
+ID int NOT NULL,
+Name varchar(255) NOT NULL,
+PRIMARY KEY (ID)
+);
