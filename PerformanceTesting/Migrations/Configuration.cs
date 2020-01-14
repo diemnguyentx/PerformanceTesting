@@ -5,14 +5,14 @@ namespace PerformanceTesting.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<LogDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<PerformanceTesting.LogDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(LogDbContext context)
+        protected override void Seed(PerformanceTesting.LogDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

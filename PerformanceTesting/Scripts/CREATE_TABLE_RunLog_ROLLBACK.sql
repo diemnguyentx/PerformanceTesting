@@ -1,4 +1,0 @@
-﻿IF (OBJECT_ID('RunLog') IS NOT NULL)
-BEGIN
-   DROP TABLE [dbo].RunLog
-END

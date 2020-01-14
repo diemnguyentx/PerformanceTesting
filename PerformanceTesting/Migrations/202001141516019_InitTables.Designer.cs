@@ -7,13 +7,13 @@ namespace PerformanceTesting.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.0.2-21211")]
-    public sealed partial class CREATE_TABLE_Message : IMigrationMetadata
+    public sealed partial class InitTables : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CREATE_TABLE_Message));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitTables));
         
         string IMigrationMetadata.Id
         {
-            get { return "202001120956304_CREATE_TABLE_Message"; }
+            get { return "202001141516019_InitTables"; }
         }
         
         string IMigrationMetadata.Source

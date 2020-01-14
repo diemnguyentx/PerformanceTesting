@@ -51,25 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccess\LogDBContext.cs" />
-    <Compile Include="Migrations\202001120955250_CREATE_TABLE_RunTest.cs" />
-    <Compile Include="Migrations\202001120955250_CREATE_TABLE_RunTest.Designer.cs">
-      <DependentUpon>202001120955250_CREATE_TABLE_RunTest.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001120956304_CREATE_TABLE_Message.cs" />
-    <Compile Include="Migrations\202001120956304_CREATE_TABLE_Message.Designer.cs">
-      <DependentUpon>202001120956304_CREATE_TABLE_Message.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001121000061_CREATE_TABLE_RunLog.cs" />
-    <Compile Include="Migrations\202001121000061_CREATE_TABLE_RunLog.Designer.cs">
-      <DependentUpon>202001121000061_CREATE_TABLE_RunLog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001121209001_INSERT_INTO_TABLE_RunTest.cs" />
-    <Compile Include="Migrations\202001121209001_INSERT_INTO_TABLE_RunTest.Designer.cs">
-      <DependentUpon>202001121209001_INSERT_INTO_TABLE_RunTest.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001121210078_INSERT_INTO_TABLE_RunLog.cs" />
-    <Compile Include="Migrations\202001121210078_INSERT_INTO_TABLE_RunLog.Designer.cs">
-      <DependentUpon>202001121210078_INSERT_INTO_TABLE_RunLog.cs</DependentUpon>
+    <Compile Include="Entities\Message.cs" />
+    <Compile Include="Entities\RunLog.cs" />
+    <Compile Include="Entities\RunTest.cs" />
+    <Compile Include="Migrations\202001141516019_InitTables.cs" />
+    <Compile Include="Migrations\202001141516019_InitTables.Designer.cs">
+      <DependentUpon>202001141516019_InitTables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -80,58 +67,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\INSERT_INTO_TABLEE_Message_ROLLBACK.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\INSERT_INTO_TABLE_Message.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\CREATE_TABLE_Message_ROLLBACK.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\INSERT_INTO_TABLE_RunTest_ROLLBACK.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\INSERT_INTO_TABLE_RunTest.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\INSERT_INTO_TABLE_RunLog_ROLLBACK.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\INSERT_INTO_TABLE_RunLog.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\CREATE_TABLE_RunLog_ROLLBACK.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\CREATE_TABLE_RunLog.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\CREATE_TABLE_Message.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\CREATE_TABLE_RunTest_ROLLBACK.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\CREATE_TABLE_RunTest.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202001120955250_CREATE_TABLE_RunTest.resx">
-      <DependentUpon>202001120955250_CREATE_TABLE_RunTest.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001120956304_CREATE_TABLE_Message.resx">
-      <DependentUpon>202001120956304_CREATE_TABLE_Message.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001121000061_CREATE_TABLE_RunLog.resx">
-      <DependentUpon>202001121000061_CREATE_TABLE_RunLog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001121209001_INSERT_INTO_TABLE_RunTest.resx">
-      <DependentUpon>202001121209001_INSERT_INTO_TABLE_RunTest.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001121210078_INSERT_INTO_TABLE_RunLog.resx">
-      <DependentUpon>202001121210078_INSERT_INTO_TABLE_RunLog.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202001141516019_InitTables.resx">
+      <DependentUpon>202001141516019_InitTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

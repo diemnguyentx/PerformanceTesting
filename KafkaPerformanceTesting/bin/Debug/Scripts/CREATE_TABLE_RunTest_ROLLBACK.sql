@@ -1,4 +1,0 @@
-﻿IF (OBJECT_ID('RunTest') IS NOT NULL)
-BEGIN
-   DROP TABLE [dbo].RunTest
-END

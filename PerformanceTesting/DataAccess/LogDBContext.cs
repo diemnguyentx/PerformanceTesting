@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using PerformanceTesting.Entities;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PerformanceTesting
 {
@@ -13,5 +9,8 @@ namespace PerformanceTesting
         {
             Database.SetInitializer<LogDbContext>(new CreateDatabaseIfNotExists<LogDbContext>());
         }
+        public  DbSet<Message> Message { get; set; }
+        public DbSet<RunLog> RunLog { get; set; }
+        public DbSet<RunTest> RunTest { get; set; }
     }
 }
