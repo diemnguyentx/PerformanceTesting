@@ -10,7 +10,6 @@ namespace PerformanceTesting
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
